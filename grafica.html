@@ -10,26 +10,28 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/rangeslider-pure/dist/range-slider.css">
 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Range Slider</title>
+    
 </head>
-
-
 <body>
+    <div class="top">
+        <h1>Gráficas Interactivas / HTML5 + JS</h1>
+    </div>
+
 
     <div class="container">
         <div class="row">
             <div class="col-md-12">
 
-                <progress value=0 max=100 id="barra" class="barraStyle" onclick="llenar()"
-                    oncontextmenu="vaciar()"></progress>
+                <progress value=0 max=100 id="barra" class="barraStyle" onscroll="llenar()"
+                    onclick="vaciar()"></progress>
 
-
-                <input type="range" min="0" max="100" step="1" data-buffer="60" />
+                <input type="range" min="0" max="100" step="1" data-buffer="60" id="barra" onmousemove="llenar()" />
 
             </div>
         </div>
     </div>
-
-
 
 
 </body>
