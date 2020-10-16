@@ -5,7 +5,9 @@ body {
   }
   
   .barra1 {
-    transform: rotate(270deg);
+    border:0; 
+    color:#f6931f; 
+    font-weight:bold;
   }
   
   * {
