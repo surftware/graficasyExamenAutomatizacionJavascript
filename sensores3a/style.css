@@ -1,0 +1,58 @@
+/*Body*/
+body {
+    background-color: #999;
+}
+.imgp1
+{
+ width: 150px; height: 100px;
+}
+
+.slcimgp1
+{
+ width:125px;
+    
+}
+/*Header*/
+
+.header
+{
+	width:90%;
+	margin-top:5px;
+	margin-left:5%;
+	background:#ffffff;
+	border: 3px outset;
+	height: 200px;
+	float:left;
+}
+
+/*Menu */
+.top_menu ul
+{
+	list-style:none;
+	float:left;
+	border: 1px dashed;
+	padding: 2%;
+	width:95%;
+}
+
+.top_menu ul li
+{
+	float:left;
+	margin-right:20px;
+	margin-bottom:10px;
+	background: #ff812d;
+	padding:5px;
+	border-radius: 15%;
+}
+.top_menu ul li a
+{
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.top_menu ul li a:hover
+{
+	color: blue;
+}
+
+
+

@@ -1,0 +1,3 @@
+Instrucciones:
+Descomprimir el archivo
+Abrir solamente el archivo sensores1.html con el navegador de su preferencia

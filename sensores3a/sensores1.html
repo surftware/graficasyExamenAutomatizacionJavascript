@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="script/script.js">
+</script>
+<script type="text/javascript" src="script/ptoextra.js">
+</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+ 
+<html>
+ <head>
+  <title>Automatización Industrial</title>  
+ </head>
+ <body>
+  <table>
+   <tr>
+    
+    <td><br>
+    </td>
+
+   </tr>   
+   <tr>
+
+    <div class="preg">
+      Sensores 3.<br>
+    <td>
+     
+     
+     <form class="forms" name="tema1" method="post" action="sensores1.html"><br>
+      
+      1.-Son utilizados como detectores de proximidad libres de roces mecánicos.<br>
+      El sensor emite un sonido y mide el tiempo que la señal tarda en regresar...<br>
+        <select name="p1">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select><br><br>
+       
+      2.-Consta de una sola placa de prueba,cuando un objeto metálico pasa frente a él<br>
+      entonces es detectable debido a la constante de pemitividad.<br>
+        <select name="p2">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+
+        </select><br><br>
+      
+      3.-Dispositivos eléctricos,neumáticos o mecánicos situados al final del recorrido<br>
+      de un elemEnto móvil.Contienen interruptores normalmente abiertos o cerrados.<br>
+        <select name="p3">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select><br><br>
+      
+        4.-Están disponibles en forma de circuitos integrados, con los circuitos <br>
+        necesarios para procesar señales.Pueden utilizarse como interruptores no mecánicos.<br>
+        <select name="p4">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select><br><br>
+      
+        5.-Utilizan la capacitancia entre el sensor y la sonda de referencia o la pared metálica<br>
+        de un depósito.<br>
+        <select name="p5">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select><br><br>
+        <input type="submit" name="b1" value="Responder"  onClick="valida()"><br><br>
+      </form>
+     
+     <form class="forms" name="form2" method="post" action="sensores1.html"><br>
+      
+        6.-Elige el nombre que le corresponde a cada sensor:<br>
+        <img src="img/carrera.jpg" class="imgp1" >
+        <img src="img/nivel.PNG" class="imgp1" >
+        <img src="img/capacitivo.jpg" class="imgp1" >
+        <img src="img/hall.jpg" class="imgp1" >
+        <img src="img/ultrasonico.jpg" class="imgp1" >
+        <img src="img/caudal.jpg" class="imgp1" >
+        
+        
+             
+        <select name="s1p1">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select>
+       
+        <select name="s2p1">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select>
+        <select name="s3p1">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select>
+        <select name="s4p1">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select>
+        <select name="s5p1">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select>
+        <select name="s6p1">
+         <option value="1" class="slcimgp1">Capacitivo</option>
+         <option value="2" class="slcimgp1">Nivel</option>
+         <option value="3" class="slcimgp1">Carrera</option>
+         <option value="4" class="slcimgp1">Ultrasónico</option>
+         <option value="5" class="slcimgp1">Caudal</option>
+         <option value="6" class="slcimgp1">Hall</option>
+         <br>
+        </select>
+        <br>
+        
+        <input type="submit" name="b1" value="Responder"  onClick="extra()"><br><br>
+
+        
+       </form>
+      
+     
+     
+     
+     
+    </body>
+</html>
